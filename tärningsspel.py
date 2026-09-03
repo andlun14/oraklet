@@ -87,7 +87,7 @@ def dators_tur():
     valt_fält = random.randint(1, 3)
     print(f"Fält valt: {valt_fält}")
     time.sleep(1)
-    dator_bet = random.randint(dator_bank / 10, dator_bank / 2)
+    dator_bet = random.randint(int(dator_bank / 10), int(dator_bank / 2))
     if (dator_bank - dator_bet) < 0:
         dator_bet = dator_bank
     print(f"Satsade pengar: {dator_bet}")
