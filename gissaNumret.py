@@ -18,4 +18,4 @@ while i < 11:
     i += 1
 if klarad == 0:
     print("Slut på försök...")
-    print("Numret var: ", nummer)
+    print(f"Numret var: {nummer}")
